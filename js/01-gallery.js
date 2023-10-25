@@ -29,11 +29,8 @@ function onPictureClick(event) {
         return;
     }
     const largePicUrl = event.target.dataset.source;
-    const instance = basicLightbox.create(`
-        <img src="${largePicUrl}" width="800" height="600">`)
-
-instance.show()
-
-
+    // const instance = basicLightbox.create(`
+    //     <img src="${largePicUrl}" width="800" height="600">`);
+    // instance.show();
     console.log(largePicUrl);
 }
